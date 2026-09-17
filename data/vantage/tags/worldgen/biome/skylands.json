@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vantage:skylands_winter",
+    "vantage:skylands_spring",
+    "vantage:skylands_summer",
+    "vantage:skylands_autumn"
+  ]
+}

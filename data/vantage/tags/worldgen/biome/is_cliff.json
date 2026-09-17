@@ -1,0 +1,13 @@
+{
+  "values": [
+    "vantage:diorite_shore",
+    "vantage:snowy_diorite_shore",
+    "vantage:granite_shore",
+    "minecraft:stony_shore",
+    "vantage:glacier_cliff",
+    "vantage:desert_cliff",
+    "vantage:escarpment",
+    "vantage:hanging_meadow",
+    "vantage:scree_slope"
+  ]
+}

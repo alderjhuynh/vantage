@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "vantage:nothing",
+    "features": [
+      {
+        "chance": 0.03,
+        "feature": "vantage:skylands/mega_tree"
+      },
+      {
+        "chance": 0.05,
+        "feature": "vantage:skylands/cloud_tree_birch"
+      },
+      {
+        "chance": 0.5,
+        "feature": "vantage:nothing"
+      },
+      {
+        "chance": 0.22,
+        "feature": "vantage:skylands/big_cone_tree"
+      },
+      {
+        "chance": 0.17,
+        "feature": "vantage:skylands/mid_tree"
+      }
+    ]
+  }
+}

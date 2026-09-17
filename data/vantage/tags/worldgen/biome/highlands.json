@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "vantage:highlands",
+    "vantage:arid_highlands",
+    "vantage:alpine_highlands",
+    "vantage:forested_highlands",
+    "vantage:temperate_highlands",
+    "vantage:escarpment"
+  ]
+}

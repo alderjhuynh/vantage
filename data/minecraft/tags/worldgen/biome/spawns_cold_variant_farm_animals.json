@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "vantage:bog",
+    "vantage:snowy_old_growth_taiga",
+    "vantage:glacier_cliff",
+    "vantage:glacier_valley",
+    "vantage:tundra",
+    "vantage:cold_river",
+    "vantage:cold_caves",
+    "vantage:frozen_caves",
+    "vantage:snowy_diorite_shore",
+    "vantage:diorite_shore",
+    "vantage:gravelly_beach",
+    "#vantage:reference/temperature/cold",
+    "#vantage:reference/temperature/frozen_all"
+  ]
+}

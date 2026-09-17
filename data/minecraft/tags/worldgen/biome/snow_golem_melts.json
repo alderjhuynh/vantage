@@ -1,0 +1,12 @@
+{
+  "values": [
+    "vantage:warm_caves",
+    "vantage:warm_river",
+    "vantage:inferno",
+    "vantage:thornscrub",
+    "vantage:desert_oasis",
+    "#vantage:reference/savanna",
+    "#vantage:reference/temperature/warm"
+  ],
+  "replace": false
+}

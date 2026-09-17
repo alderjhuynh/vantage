@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": "minecraft:overworld_large_biomes/depth",
+      "argument2": 0
+    },
+    "min": 0,
+    "max": 2
+  },
+  "argument2": "vantage:sky"
+}

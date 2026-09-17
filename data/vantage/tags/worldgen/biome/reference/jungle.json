@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "vantage:amethyst_canyon",
+    "vantage:amethyst_rainforest",
+    "vantage:jungle_mountains",
+    "vantage:rocky_jungle",
+    "vantage:tropical_jungle"
+  ]
+}

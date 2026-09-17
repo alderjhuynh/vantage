@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vantage:shrubland",
+    "vantage:hot_shrubland",
+    "vantage:cold_shrubland"
+  ]
+}

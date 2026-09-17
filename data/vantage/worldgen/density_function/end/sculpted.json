@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vantage:end/island_field",
+  "argument2": "vantage:end/shelf_bias"
+}
