@@ -21,14 +21,16 @@
     "water_color": "#2F628F"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/pillar"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode",
-      "vantage:old_growth_forest_rock",
-      "vantage:fallen_log_spruce_moss"
+      "vantage:fallen_log_spruce_moss",
+      "vantage:old_growth_forest_rock"
     ],
     [
       "minecraft:monster_room",
@@ -66,7 +68,9 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -85,12 +89,10 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_berry_common",
-      "vantage:flower_taiga",
-      "vantage:bonemeal/taiga"
+      "vantage:bonemeal/taiga",
+      "vantage:flower_taiga"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -213,5 +215,6 @@
     "water_creature": []
   },
   "temperature": 0.35,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for old_growth_spruce_taiga \u2014 distinct verticality, not Clifftree copy"
 }

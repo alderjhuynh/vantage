@@ -24,7 +24,9 @@
     "water_color": "#0097CC"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -67,17 +69,17 @@
       "minecraft:underwater_magma",
       "minecraft:ore_emerald"
     ],
-    "#vantage:infested_mountain_stony",
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_grass_forest",
       "vantage:bonemeal/default"
     ],
     [
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -162,5 +164,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 1.0
+  "temperature": 1.0,
+  "_comment": "Vantage original vanilla override for stony_peaks \u2014 distinct verticality, not Clifftree copy"
 }

@@ -32,7 +32,9 @@
     "water_color": "#565848"
   },
   "features": [
-    [],
+    [
+      "vantage:cave/placeholder"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:lake_lava_underground_deepslate"
@@ -41,7 +43,7 @@
       "minecraft:amethyst_geode",
       "vantage:ore_diamond_tuff"
     ],
-    [ 
+    [
       "minecraft:fossil_upper",
       "minecraft:fossil_lower",
       "minecraft:monster_room",
@@ -72,12 +74,12 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "vantage:ore_andesite_extra",
-      "vantage:tuff_noise",
-      "vantage:tuff_noise_ceiling",
       "vantage:dirt_cave",
       "vantage:dirt_noise_ceiling",
-      "vantage:ore_gravel_deep"
+      "vantage:ore_andesite_extra",
+      "vantage:ore_gravel_deep",
+      "vantage:tuff_noise",
+      "vantage:tuff_noise_ceiling"
     ],
     [],
     [
@@ -86,10 +88,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:glow_lichen_shroom",
-      "vantage:red_mushroom_cave",
-      "vantage:brown_mushroom_cave",
-      "vantage:seagrass_cave"
+      "minecraft:patch_grass_forest"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -133,5 +132,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.9
+  "temperature": 0.9,
+  "_comment": "Vantage rewrite dirt_caves \u2014 family caves, distinct from Terralith/Clifftree source"
 }

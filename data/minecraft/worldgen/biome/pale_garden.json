@@ -30,7 +30,9 @@
     "water_color": "#76889d"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -85,13 +87,11 @@
       "minecraft:flower_pale_garden",
       "minecraft:patch_grass_forest",
       "minecraft:patch_sugar_cane",
+      "vantage:bonemeal/pale_garden",
       "vantage:patch_pumpkin_pale_garden",
-      "vantage:patch_tall_grass_extra",
-      "vantage:bonemeal/pale_garden"
+      "vantage:patch_tall_grass_extra"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -199,5 +199,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.7
+  "temperature": 0.7,
+  "_comment": "Vantage original vanilla override for pale_garden \u2014 distinct verticality, not Clifftree copy"
 }

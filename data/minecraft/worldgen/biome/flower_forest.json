@@ -21,7 +21,9 @@
     "water_color": "#06609E"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -65,7 +67,9 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -73,20 +77,21 @@
     [
       "minecraft:glow_lichen",
       "minecraft:flower_forest_flowers",
-      "vantage:wildflowers_flower_forest",
-      "vantage:pink_petals_flower_forest",
       "minecraft:trees_flower_forest",
-      "vantage:flower_flower_forest",
       "minecraft:patch_grass_meadow",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
+      "vantage:bonemeal/flower_forest",
+      "vantage:flower_flower_forest",
       "vantage:grass_skylight",
       "vantage:patch_firefly_bush_skylight_near_water",
-      "vantage:bonemeal/flower_forest"
+      "vantage:pink_petals_flower_forest",
+      "vantage:wildflowers_flower_forest"
     ],
-    [ 
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -197,5 +202,6 @@
     "water_creature": []
   },
   "temperature": 0.7,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for flower_forest \u2014 distinct verticality, not Clifftree copy"
 }

@@ -31,21 +31,22 @@
   },
   "effects": {
     "water_color": "#4A6375"
-
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
-      "vantage:lake_lava_underground_deepslate",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "vantage:lake_lava_underground_deepslate"
     ],
     [
       "minecraft:amethyst_geode",
       "minecraft:large_dripstone",
       "vantage:ore_diamond_tuff"
     ],
-    [ 
+    [
       "minecraft:fossil_upper",
       "minecraft:fossil_lower",
       "minecraft:monster_room",
@@ -81,9 +82,9 @@
       "minecraft:ore_copper_large",
       "minecraft:underwater_magma",
       "vantage:ore_granite_extra",
+      "vantage:ore_gravel_deep",
       "vantage:tuff_noise",
-      "vantage:tuff_noise_ceiling",
-      "vantage:ore_gravel_deep"
+      "vantage:tuff_noise_ceiling"
     ],
     [
       "minecraft:dripstone_cluster",
@@ -100,6 +101,7 @@
       "minecraft:trees_plains",
       "minecraft:flower_plains",
       "minecraft:patch_grass_plain",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -185,5 +187,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.8
+  "temperature": 0.8,
+  "_comment": "Vantage original vanilla override for dripstone_caves \u2014 distinct verticality, not Clifftree copy"
 }

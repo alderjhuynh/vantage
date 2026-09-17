@@ -8,17 +8,17 @@
         "coordinate": "minecraft:y",
         "points": [
           {
-            "location": 70,
+            "location": 70.00125,
             "derivative": 0,
             "value": 0
           },
           {
-            "location": 120,
+            "location": 119.99934,
             "derivative": 0,
             "value": 1
           },
           {
-            "location": 170,
+            "location": 169.98513,
             "derivative": 0,
             "value": 0
           }
@@ -31,17 +31,17 @@
         "coordinate": "vantage:pillars_noise",
         "points": [
           {
-            "location": 0,
+            "location": 0.00324,
             "derivative": 0,
             "value": 1
           },
           {
-            "location": 0.2,
+            "location": 0.21023,
             "derivative": 0,
             "value": 1
           },
           {
-            "location": 0.6,
+            "location": 0.59576,
             "derivative": 0,
             "value": -0.125
           }
@@ -55,8 +55,8 @@
       "type": "minecraft:spline",
       "spline": {
         "coordinate": {
-          "xz_scale": 0.25,
-          "y_scale": 0.0,
+          "xz_scale": 0.24276,
+          "y_scale": 0.05,
           "noise": "minecraft:temperature",
           "shift_x": "minecraft:shift_x",
           "shift_y": 0.0,
@@ -66,22 +66,22 @@
         "points": [
           {
             "derivative": 0,
-            "location": 0.54,
+            "location": 0.55012,
             "value": {
               "coordinate": "minecraft:overworld/ridges",
               "points": [
                 {
-                  "location": 0.767,
+                  "location": 0.77896,
                   "derivative": 0,
                   "value": 0
                 },
                 {
-                  "location": 0.8,
+                  "location": 0.79801,
                   "derivative": 0,
                   "value": 0.5
                 },
                 {
-                  "location": 0.85,
+                  "location": 0.83932,
                   "derivative": 0,
                   "value": 1
                 }
@@ -90,7 +90,7 @@
           },
           {
             "derivative": 0,
-            "location": 0.57,
+            "location": 0.5643,
             "value": {
               "coordinate": {
                 "type": "abs",
@@ -98,17 +98,17 @@
               },
               "points": [
                 {
-                  "location": 0.767,
+                  "location": 0.77896,
                   "derivative": 0,
                   "value": 0
                 },
                 {
-                  "location": 0.8,
+                  "location": 0.79801,
                   "derivative": 0,
                   "value": 0.5
                 },
                 {
-                  "location": 0.85,
+                  "location": 0.83932,
                   "derivative": 0,
                   "value": 1
                 }
@@ -116,7 +116,7 @@
             }
           }
         ]
-      }      
+      }
     },
     "argument2": {
       "type": "minecraft:mul",
@@ -126,17 +126,17 @@
           "coordinate": "minecraft:overworld/erosion",
           "points": [
             {
-              "location": -0.675,
+              "location": -0.68479,
               "derivative": 0,
               "value": 0
             },
             {
-              "location": -0.525,
+              "location": -0.53023,
               "derivative": 0,
               "value": 1
             },
             {
-              "location": 0.075,
+              "location": 0.08222,
               "derivative": 0,
               "value": 0
             }
@@ -149,12 +149,12 @@
           "coordinate": "minecraft:overworld/continents",
           "points": [
             {
-              "location": 0.110,
+              "location": 0.10429,
               "derivative": 0,
               "value": 0
             },
             {
-              "location": 0.2,
+              "location": 0.21023,
               "derivative": 0,
               "value": -1
             }
@@ -162,5 +162,6 @@
         }
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for pillars.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

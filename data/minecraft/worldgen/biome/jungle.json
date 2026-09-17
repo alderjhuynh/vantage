@@ -28,7 +28,9 @@
     "foliage_color": "#4b9e17"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:mud_patch_jungle"
@@ -74,20 +76,21 @@
       "minecraft:underwater_magma",
       "vantage:disk_sand_tropic"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:jungle_flowers",
-      "minecraft:patch_large_fern",
       "minecraft:bamboo_light",
       "minecraft:trees_jungle",
-      "vantage:jungle_bushes",
       "minecraft:flower_warm",
       "minecraft:patch_grass_jungle",
+      "minecraft:patch_large_fern",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_old_growth",
       "minecraft:red_mushroom_old_growth",
       "minecraft:brown_mushroom_normal",
@@ -96,16 +99,16 @@
       "minecraft:patch_sugar_cane",
       "minecraft:vines",
       "minecraft:patch_melon",
+      "vantage:bonemeal/forest",
       "vantage:grass_skylight",
+      "vantage:jungle_bushes",
+      "vantage:jungle_flowers",
+      "vantage:jungle_mushroom",
       "vantage:patch_bush_jungle",
       "vantage:patch_firefly_bush_skylight",
-      "vantage:patch_firefly_bush_skylight_near_water",
-      "vantage:jungle_mushroom",
-      "vantage:bonemeal/forest"
+      "vantage:patch_firefly_bush_skylight_near_water"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -228,5 +231,6 @@
     "water_creature": []
   },
   "temperature": 0.95,
-  "creature_spawn_probability": 0.3
+  "creature_spawn_probability": 0.3,
+  "_comment": "Vantage original vanilla override for jungle \u2014 distinct verticality, not Clifftree copy"
 }

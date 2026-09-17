@@ -1,14 +1,13 @@
 {
   "replace": false,
   "values": [
-    "vantage:amethyst_canyon",
-    "vantage:amethyst_rainforest",
+    "vantage:crystal_canyon",
+    "vantage:crystal_rainforest",
     "vantage:lavender_forest",
-    "vantage:mirage_isles",
+    "vantage:misty_isles",
     "vantage:moonlight_grove",
     "vantage:painted_mountains",
-    "vantage:scarlet_mountains",
-    "vantage:warped_mesa",
-    "#vantage:skylands"
+    "vantage:red_mountains",
+    "vantage:warped_mesa"
   ]
 }

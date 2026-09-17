@@ -9,23 +9,23 @@
         "points": [
           {
             "derivative": 0,
-            "location": -0.275,
+            "location": -0.28278,
             "value": 4
           },
           {
             "derivative": 0,
-            "location": -0.2375,
+            "location": -0.24758,
             "value": {
               "coordinate": "overworld/erosion",
               "points": [
                 {
                   "derivative": 0,
-                  "location": -0.55,
+                  "location": -0.55059,
                   "value": 2.5
                 },
                 {
                   "derivative": 0,
-                  "location": -0.5,
+                  "location": -0.50022,
                   "value": 4
                 }
               ]
@@ -33,18 +33,18 @@
           },
           {
             "derivative": 0,
-            "location": -0.18,
+            "location": -0.18531,
             "value": {
               "coordinate": "overworld/erosion",
               "points": [
                 {
                   "derivative": 0,
-                  "location": -0.55,
+                  "location": -0.55059,
                   "value": 0
                 },
                 {
                   "derivative": 0,
-                  "location": -0.5,
+                  "location": -0.50022,
                   "value": 4
                 }
               ]
@@ -52,18 +52,18 @@
           },
           {
             "derivative": 0,
-            "location": -0.125,
+            "location": -0.13632,
             "value": {
               "coordinate": "overworld/erosion",
               "points": [
                 {
                   "derivative": 0,
-                  "location": -0.55,
+                  "location": -0.55059,
                   "value": 2.5
                 },
                 {
                   "derivative": 0,
-                  "location": -0.5,
+                  "location": -0.50022,
                   "value": 4
                 }
               ]
@@ -71,11 +71,12 @@
           },
           {
             "derivative": 0,
-            "location": -0.09,
+            "location": -0.0792,
             "value": 4.0
           }
         ]
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for spline.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

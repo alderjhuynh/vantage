@@ -21,7 +21,9 @@
     "water_color": "#2F628F"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/pillar"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -65,30 +67,31 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_taiga",
-      "vantage:trees_taiga_density",
       "minecraft:patch_large_fern",
+      "minecraft:trees_taiga",
       "minecraft:patch_grass_plain",
       "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_berry_common",
+      "vantage:bonemeal/taiga",
       "vantage:flower_taiga",
-      "vantage:bonemeal/taiga"
+      "vantage:trees_taiga_density"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -211,5 +214,6 @@
     "water_creature": []
   },
   "temperature": 0.375,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for taiga \u2014 distinct verticality, not Clifftree copy"
 }

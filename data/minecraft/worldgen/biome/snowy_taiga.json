@@ -27,7 +27,9 @@
     "grass_color": "#78B895"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/pillar"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -72,31 +74,31 @@
       "minecraft:underwater_magma",
       "vantage:disk_snowy_grass"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
-      
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "vantage:trees_snowy_taiga",
       "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
       "minecraft:patch_grass_taiga_2",
-      "vantage:patch_taiga_grass",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_pumpkin",
       "minecraft:patch_berry_common",
+      "vantage:bonemeal/taiga",
       "vantage:flower_taiga",
+      "vantage:patch_taiga_grass",
       "vantage:snow_patches",
       "vantage:snow_remove",
-      "vantage:bonemeal/taiga"
+      "vantage:trees_snowy_taiga"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer",
       "vantage:remove_snow_from_ice"
     ]
@@ -226,5 +228,6 @@
     "water_creature": []
   },
   "temperature": -0.5,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for snowy_taiga \u2014 distinct verticality, not Clifftree copy"
 }

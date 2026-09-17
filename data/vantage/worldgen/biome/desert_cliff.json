@@ -23,7 +23,11 @@
     "water_color": "#2B8C8A"
   },
   "features": [
-    "#vantage:alternate_terracotta",
+    [
+      "vantage:canyon/generic/slab_stone",
+      "vantage:highlands/disk_gravel",
+      "vantage:shore_sand"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:lake_lava_surface_sandstone"
@@ -63,10 +67,11 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "vantage:shore_sand"
+      "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -75,9 +80,8 @@
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "vantage:patch_dry_grass_beach"
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:patch_cactus_decorated"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -177,5 +181,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 2.0
+  "temperature": 2.0,
+  "_comment": "Vantage rewrite desert_cliff \u2014 family canyon, distinct from Terralith/Clifftree source"
 }

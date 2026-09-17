@@ -25,10 +25,11 @@
   "effects": {
     "water_color": "#7EB1DD",
     "grass_color": "#9EB2A3"
-  }
-,
+  },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -45,7 +46,6 @@
       "vantage:stone_cliff"
     ],
     [
-      "vantage:ice_blobs",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -73,9 +73,10 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:ore_emerald",
+      "vantage:ice_blobs",
       "vantage:ice_to_snow"
     ],
-    "#vantage:infested_mountain",
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava",
@@ -83,12 +84,12 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_grass_forest",
       "minecraft:patch_pumpkin",
-      "vantage:snow_patches",
-      "vantage:bonemeal/taiga"
+      "vantage:bonemeal/taiga",
+      "vantage:snow_patches"
     ],
     [
-      
       "minecraft:freeze_top_layer",
       "vantage:remove_snow_from_ice"
     ]
@@ -187,5 +188,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": -0.3
+  "temperature": -0.3,
+  "_comment": "Vantage original vanilla override for snowy_slopes \u2014 distinct verticality, not Clifftree copy"
 }

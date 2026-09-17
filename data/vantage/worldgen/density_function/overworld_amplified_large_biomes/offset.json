@@ -127,12 +127,12 @@
                             {
                               "derivative": 0.0,
                               "location": 0.5954547,
-                              "value": 5.9604645E-8
+                              "value": 5.9604645e-08
                             },
                             {
                               "derivative": 0.2534563,
                               "location": 0.6054547,
-                              "value": 5.9604645E-8
+                              "value": 5.9604645e-08
                             },
                             {
                               "derivative": 0.2534563,
@@ -349,12 +349,12 @@
                             {
                               "derivative": 0.0,
                               "location": 0.5954547,
-                              "value": 5.9604645E-8
+                              "value": 5.9604645e-08
                             },
                             {
                               "derivative": 0.2534563,
                               "location": 0.6054547,
-                              "value": 5.9604645E-8
+                              "value": 5.9604645e-08
                             },
                             {
                               "derivative": 0.2534563,
@@ -571,12 +571,12 @@
                             {
                               "derivative": 0.0,
                               "location": 0.5954547,
-                              "value": 5.9604645E-8
+                              "value": 5.9604645e-08
                             },
                             {
                               "derivative": 0.2534563,
                               "location": 0.6054547,
-                              "value": 5.9604645E-8
+                              "value": 5.9604645e-08
                             },
                             {
                               "derivative": 0.2534563,
@@ -1519,5 +1519,6 @@
         }
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for offset.json \u2014 distinct"
 }

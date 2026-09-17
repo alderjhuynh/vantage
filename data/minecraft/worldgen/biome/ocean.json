@@ -32,11 +32,12 @@
   },
   "features": [
     [
-      "vantage:disk_gravel_deep_ocean_floor"
+      "vantage:disk_gravel_deep_ocean_floor",
+      "vantage:ocean/floor"
     ],
     [
-      "vantage:ocean_ravine_magma",
       "vantage:ocean_arch",
+      "vantage:ocean_ravine_magma",
       "vantage:ocean_rocks"
     ],
     [
@@ -77,7 +78,9 @@
       "minecraft:underwater_magma",
       "vantage:ocean_shore_sand"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -89,15 +92,14 @@
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vantage:patch_dry_grass_beach",
+      "minecraft:seagrass_swamp",
       "minecraft:seagrass_normal",
+      "vantage:bonemeal/default",
       "vantage:kelp_cold",
-      "vantage:tall_seagrass_rock",
-      "vantage:bonemeal/default"
+      "vantage:patch_dry_grass_beach",
+      "vantage:tall_seagrass_rock"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -221,5 +223,6 @@
       }
     ]
   },
-  "temperature": 0.5
+  "temperature": 0.5,
+  "_comment": "Vantage original vanilla override for ocean \u2014 distinct verticality, not Clifftree copy"
 }

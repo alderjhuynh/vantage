@@ -598,7 +598,7 @@
                           "minecraft:badlands",
                           "minecraft:eroded_badlands",
                           "minecraft:wooded_badlands",
-                          "vantage:coniferous_badlands",
+                          "vantage:coniferous_thicket",
                           "vantage:desert_cliff"
                         ],
                         "type": "minecraft:biome"
@@ -627,7 +627,7 @@
                     {
                       "if_true": {
                         "biome_is": [
-                          "vantage:glacier_cliff",
+                          "vantage:frozen_cliff",
                           "minecraft:ice_spikes",
                           "minecraft:grove"
                         ],
@@ -662,7 +662,7 @@
                           "minecraft:windswept_hills",
                           "minecraft:pale_garden",
                           "vantage:stone_ocean",
-                          "vantage:glacier_valley",
+                          "vantage:frozen_valley",
                           "minecraft:ice_spikes"
                         ],
                         "type": "minecraft:biome"
@@ -716,7 +716,7 @@
                           "minecraft:badlands",
                           "minecraft:eroded_badlands",
                           "minecraft:wooded_badlands",
-                          "vantage:coniferous_badlands"
+                          "vantage:coniferous_thicket"
                         ],
                         "type": "minecraft:biome"
                       },
@@ -795,7 +795,7 @@
                     {
                       "if_true": {
                         "biome_is": [
-                          "vantage:glacier_cliff",
+                          "vantage:frozen_cliff",
                           "minecraft:ice_spikes"
                         ],
                         "type": "minecraft:biome"
@@ -837,7 +837,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "vantage:glacier_valley"
+                        "vantage:frozen_valley"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -890,8 +890,8 @@
                     "if_true": {
                       "biome_is": [
                         "minecraft:stony_shore",
-                        "vantage:diorite_shore",
-                        "vantage:granite_shore",
+                        "vantage:diorite_coast",
+                        "vantage:granite_bluff",
                         "vantage:snowy_diorite_shore"
                       ],
                       "type": "minecraft:biome"
@@ -1285,7 +1285,7 @@
                         "minecraft:badlands",
                         "minecraft:eroded_badlands",
                         "minecraft:wooded_badlands",
-                        "vantage:coniferous_badlands"
+                        "vantage:coniferous_thicket"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -1446,7 +1446,7 @@
                     "if_true": {
                       "biome_is": [
                         "minecraft:cold_ocean",
-                        "vantage:gravelly_beach",
+                        "vantage:gravel_beach",
                         "minecraft:snowy_beach",
                         "minecraft:deep_cold_ocean",
                         "minecraft:frozen_ocean",
@@ -1567,7 +1567,7 @@
                     "if_true": {
                       "biome_is": [
                         "minecraft:wooded_badlands",
-                        "vantage:coniferous_badlands"
+                        "vantage:coniferous_thicket"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -1802,8 +1802,8 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "vantage:glacier_valley",
-                        "vantage:glacier_cliff"
+                        "vantage:frozen_valley",
+                        "vantage:frozen_cliff"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -1887,7 +1887,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "vantage:glacier_valley"
+                        "vantage:frozen_valley"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -1940,7 +1940,7 @@
                     "if_true": {
                       "biome_is": [
                         "minecraft:mushroom_fields",
-                        "vantage:mushroom_caves"
+                        "vantage:fungal_caves"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -2004,7 +2004,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "vantage:glacier_cliff"
+                        "vantage:frozen_cliff"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -2076,7 +2076,7 @@
                           "vantage:thornscrub",
                           "vantage:desert_oasis",
                           "minecraft:savanna_plateau",
-                          "vantage:glacier_valley"
+                          "vantage:frozen_valley"
                         ],
                         "type": "minecraft:biome"
                       },
@@ -2088,7 +2088,7 @@
                     {
                       "if_true": {
                         "biome_is": [
-                          "vantage:glacier_valley"
+                          "vantage:frozen_valley"
                         ],
                         "type": "minecraft:biome"
                       },
@@ -2138,9 +2138,9 @@
                         "minecraft:badlands",
                         "minecraft:eroded_badlands",
                         "minecraft:wooded_badlands",
-                        "vantage:coniferous_badlands",
+                        "vantage:coniferous_thicket",
                         "vantage:desert_cliff",
-                        "vantage:glacier_valley"
+                        "vantage:frozen_valley"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -2175,7 +2175,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "vantage:glacier_cliff"
+                        "vantage:frozen_cliff"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -2203,7 +2203,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "vantage:granite_shore"
+                          "vantage:granite_bluff"
                         ]
                       },
                       "then_run": {
@@ -2229,7 +2229,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "vantage:diorite_shore",
+                          "vantage:diorite_coast",
                           "vantage:snowy_diorite_shore"
                         ]
                       },
@@ -2245,8 +2245,8 @@
                     "if_true": {
                       "biome_is": [
                         "minecraft:jagged_peaks",
-                        "vantage:granite_shore",
-                        "vantage:diorite_shore",
+                        "vantage:granite_bluff",
+                        "vantage:diorite_coast",
                         "vantage:snowy_diorite_shore",
                         "minecraft:stony_shore",
                         "vantage:stone_ocean"
@@ -2275,7 +2275,7 @@
                     "vantage:lukewarm_caves",
                     "vantage:cold_caves",
                     "vantage:frozen_caves",
-                    "vantage:mushroom_caves",
+                    "vantage:fungal_caves",
                     "minecraft:lush_caves",
                     "minecraft:dripstone_caves"
                   ],

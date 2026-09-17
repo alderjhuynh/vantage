@@ -24,7 +24,10 @@
     "water_color": 4159136
   },
   "features": [
-    [],
+    [
+      "vantage:canyon/generic/slab_stone",
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -74,20 +77,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:shrubland/cold/bushes",
-      "vantage:shrubland/cold/small_trees",
-      "vantage:shrubland/cold/tiny_trees",
-      "vantage:shrubland/cold/cone_trees",
       "minecraft:patch_tall_grass_2",
       "minecraft:trees_plains",
-      "minecraft:patch_bush",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:patch_cactus_decorated"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -218,5 +211,6 @@
     "water_creature": []
   },
   "temperature": 0.14,
-  "temperature_modifier": "frozen"
+  "temperature_modifier": "frozen",
+  "_comment": "Vantage rewrite cold_shrubland \u2014 family canyon, distinct from Terralith/Clifftree source"
 }

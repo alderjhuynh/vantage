@@ -38,13 +38,15 @@
     "grass_color": "#BDA2A9"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
-      "vantage:island_rock",
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "vantage:island_rock"
     ],
     [
       "minecraft:monster_room",
@@ -65,7 +67,6 @@
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
-      "vantage:ore_coal_lush",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
@@ -81,26 +82,30 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "vantage:ore_coal_lush"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:patch_grass_island",
-      "vantage:huge_red_mushroom",
-      "vantage:huge_brown_mushroom",
+      "minecraft:patch_grass_forest",
       "minecraft:mushroom_island_vegetation",
-      "vantage:mushroom_field_patch",
-      "vantage:patch_mushroom_mud",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
+      "vantage:huge_brown_mushroom",
+      "vantage:huge_red_mushroom",
+      "vantage:island_cave_mushroom",
+      "vantage:mushroom_field_patch",
+      "vantage:patch_grass_island",
+      "vantage:patch_mushroom_mud",
       "vantage:shelf_fungus",
-      "vantage:shelf_fungus_cave",
-      "vantage:island_cave_mushroom"
+      "vantage:shelf_fungus_cave"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -140,5 +145,6 @@
     "water_creature": []
   },
   "temperature": 0.9,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for mushroom_fields \u2014 distinct verticality, not Clifftree copy"
 }

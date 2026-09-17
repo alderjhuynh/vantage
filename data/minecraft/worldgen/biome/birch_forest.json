@@ -22,7 +22,9 @@
     "grass_color": "#8EC154"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -67,29 +69,30 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:pale_neighbor_vegetation",
       "minecraft:forest_flowers",
       "minecraft:wildflowers_birch_forest",
       "minecraft:trees_birch",
       "minecraft:patch_bush",
       "minecraft:patch_grass_plain",
       "minecraft:flower_default",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "vantage:bonemeal/birch_forest"
+      "vantage:bonemeal/birch_forest",
+      "vantage:pale_neighbor_vegetation"
     ],
-    [ 
-      
-      
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -200,5 +203,6 @@
     "water_creature": []
   },
   "temperature": 0.6,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for birch_forest \u2014 distinct verticality, not Clifftree copy"
 }

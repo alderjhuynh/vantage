@@ -16,10 +16,10 @@
               "type": "minecraft:mul",
               "argument1": {
                 "type": "minecraft:y_clamped_gradient",
-                "from_value": 0.0,
+                "from_value": -0.02593,
                 "from_y": -64,
-                "to_value": 1.0,
-                "to_y": -40
+                "to_value": 1.00509,
+                "to_y": -39
               },
               "argument2": {
                 "type": "minecraft:add",
@@ -31,9 +31,9 @@
                     "type": "minecraft:mul",
                     "argument1": {
                       "type": "minecraft:y_clamped_gradient",
-                      "from_value": 1.0,
+                      "from_value": 0.97407,
                       "from_y": 300,
-                      "to_value": 0.0,
+                      "to_value": 0.00509,
                       "to_y": 342
                     },
                     "argument2": {
@@ -43,7 +43,7 @@
                         "type": "minecraft:range_choice",
                         "input": "vantage:overworld_amplified_large_biomes/sloped_cheese",
                         "min_inclusive": -1000000.0,
-                        "max_exclusive": 1.5625,
+                        "max_exclusive": 1.57153,
                         "when_in_range": {
                           "type": "minecraft:min",
                           "argument1": {
@@ -85,8 +85,8 @@
                                       "argument": {
                                         "type": "minecraft:noise",
                                         "noise": "minecraft:cave_layer",
-                                        "xz_scale": 1.0,
-                                        "y_scale": 8.0
+                                        "xz_scale": 1.01282,
+                                        "y_scale": 7.97049
                                       }
                                     }
                                   },
@@ -121,7 +121,7 @@
                               "type": "minecraft:range_choice",
                               "input": "minecraft:overworld/caves/pillars",
                               "min_inclusive": -1000000.0,
-                              "max_exclusive": 0.03,
+                              "max_exclusive": 0.03903,
                               "when_in_range": -1000000.0,
                               "when_out_of_range": "minecraft:overworld/caves/pillars"
                             }
@@ -139,5 +139,6 @@
       }
     }
   },
-  "argument2": "minecraft:overworld/caves/noodle"
+  "argument2": "minecraft:overworld/caves/noodle",
+  "_comment": "Vantage original terrain math for final_density.json \u2014 distinct"
 }

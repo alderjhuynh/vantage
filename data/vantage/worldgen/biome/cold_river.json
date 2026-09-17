@@ -30,7 +30,10 @@
     "water_color": "#285080"
   },
   "features": [
-    [],
+    [
+      "vantage:bog/mud_flats",
+      "vantage:bog/peat_patches"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -72,25 +75,19 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_plains",
       "minecraft:patch_bush",
-      "minecraft:patch_grass_plain",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_desert",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_firefly_bush_near_water",
-      "minecraft:patch_berry_common",
-      "minecraft:seagrass_river",
-      "vantage:glow_lichen_cave_river",
-      "vantage:bonemeal/taiga"
+      "minecraft:trees_plains",
+      "minecraft:seagrass_swamp",
+      "vantage:bog/stunted_oak"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -192,5 +189,6 @@
   "spawn_costs": {},
   "has_precipitation": true,
   "temperature": 0.25,
-  "downfall": 0.8
+  "downfall": 0.8,
+  "_comment": "Vantage rewrite cold_river \u2014 family wet, distinct from Terralith/Clifftree source"
 }

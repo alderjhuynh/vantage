@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "#vantage:reference/all_with_structures",
-    "vantage:cave/frostfire_caves",
+    "vantage:cave/frostflare_caves",
     "vantage:escarpment",
     "vantage:hanging_meadow",
     "vantage:scree_slope"

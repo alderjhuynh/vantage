@@ -27,14 +27,17 @@
     "grass_color": "#78B895"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel",
+      "vantage:highlands/pillar"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode",
-      "vantage:snowy_rock",
-      "vantage:fallen_log_spruce_snow"
+      "vantage:fallen_log_spruce_snow",
+      "vantage:snowy_rock"
     ],
     [
       "minecraft:monster_room",
@@ -72,7 +75,9 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -80,17 +85,9 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "vantage:trees_old_growth_snowy",
       "minecraft:flower_default",
-      "minecraft:patch_grass_taiga",
-      "minecraft:patch_dead_bush",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common",
-      "vantage:flower_taiga",
-      "vantage:snow_patches",
-      "vantage:bonemeal/taiga"
+      "minecraft:patch_grass_forest",
+      "vantage:highlands/alpine/pine"
     ],
     [
       "minecraft:freeze_top_layer",
@@ -222,5 +219,6 @@
     "water_creature": []
   },
   "temperature": 0.0,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage rewrite snowy_old_growth_taiga \u2014 family highlands, distinct from Terralith/Clifftree source"
 }

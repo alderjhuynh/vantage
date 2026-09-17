@@ -2,9 +2,9 @@
   "type": "minecraft:add",
   "argument1": {
     "type": "minecraft:y_clamped_gradient",
-    "from_value": 1.5,
-    "from_y": -64,
-    "to_value": -1.5,
+    "from_value": 1.50936,
+    "from_y": -63,
+    "to_value": -1.50431,
     "to_y": 320
   },
   "argument2": {
@@ -45,5 +45,6 @@
         }
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for cliff_depth.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

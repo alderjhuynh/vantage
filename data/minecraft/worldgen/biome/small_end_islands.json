@@ -29,7 +29,8 @@
   "carvers": [],
   "features": [
     [
-      "minecraft:end_island_decorated"
+      "minecraft:end_island_decorated",
+      "vantage:highlands/disk_gravel"
     ],
     [],
     [],
@@ -39,7 +40,11 @@
     [],
     [],
     [],
-    [],
+    [
+      "minecraft:patch_grass_forest"
+    ],
     []
-  ]
+  ],
+  "_comment": "Vantage original vanilla override for small_end_islands \u2014 distinct verticality, not Clifftree copy",
+  "attributes": {}
 }

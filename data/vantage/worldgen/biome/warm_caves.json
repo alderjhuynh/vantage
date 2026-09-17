@@ -39,21 +39,23 @@
     "water_color": "#328684"
   },
   "features": [
-    [],
+    [
+      "vantage:cave/placeholder"
+    ],
     [
       "minecraft:lake_lava_underground",
-      "vantage:lake_lava_underground_deepslate",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "vantage:lake_lava_underground_deepslate"
     ],
     [
       "minecraft:amethyst_geode",
       "vantage:ore_diamond_tuff"
     ],
-    [ 
-      "vantage:fossil_upper_warm",
-      "vantage:fossil_lower_warm",
+    [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep",
+      "vantage:fossil_lower_warm",
+      "vantage:fossil_upper_warm"
     ],
     [],
     [],
@@ -82,12 +84,12 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "vantage:ore_granite_extra",
       "vantage:cave_granite",
       "vantage:cave_granite_ceiling",
+      "vantage:ore_granite_extra",
+      "vantage:ore_gravel_deep",
       "vantage:tuff_noise",
       "vantage:tuff_noise_ceiling",
-      "vantage:ore_gravel_deep",
       "vantage:warm_ceiling_desert"
     ],
     [
@@ -101,12 +103,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:red_mushroom_cave",
-      "vantage:brown_mushroom_cave",
-      "vantage:brown_mushroom_cave_sparse",
-      "vantage:seagrass_cave",
-      "vantage:warm_cave_cobwebs",
-      "vantage:dead_bush_cave"
+      "minecraft:patch_grass_forest"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -181,5 +178,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 2.0
+  "temperature": 2.0,
+  "_comment": "Vantage rewrite warm_caves \u2014 family caves, distinct from Terralith/Clifftree source"
 }

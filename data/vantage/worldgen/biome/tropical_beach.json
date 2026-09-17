@@ -16,7 +16,8 @@
   },
   "features": [
     [
-      "vantage:tropical_beach_surface"
+      "vantage:bog/mud_flats",
+      "vantage:bog/peat_patches"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -59,7 +60,9 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -68,14 +71,10 @@
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "vantage:patch_dry_grass_beach",
-      "minecraft:patch_pumpkin",
-      "minecraft:seagrass_river",
-      "vantage:bonemeal/default"
+      "minecraft:seagrass_swamp",
+      "vantage:bog/stunted_oak"
     ],
-    [ 
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -161,5 +160,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.85
+  "temperature": 0.85,
+  "_comment": "Vantage rewrite tropical_beach \u2014 family wet, distinct from Terralith/Clifftree source"
 }

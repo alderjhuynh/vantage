@@ -15,7 +15,9 @@
     "grass_color": "#B6DB61"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -58,26 +60,27 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:patch_pumpkin_sunflower",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_sunflower",
       "minecraft:patch_grass_plain",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "vantage:sunflower_flower_dandelion",
-      "vantage:bonemeal/dandelion"
+      "vantage:bonemeal/dandelion",
+      "vantage:patch_pumpkin_sunflower",
+      "vantage:sunflower_flower_dandelion"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -194,5 +197,6 @@
     "water_creature": []
   },
   "temperature": 0.8,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for sunflower_plains \u2014 distinct verticality, not Clifftree copy"
 }

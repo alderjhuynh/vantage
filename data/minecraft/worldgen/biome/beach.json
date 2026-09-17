@@ -14,7 +14,9 @@
     "water_color": "#08709D"
   },
   "features": [
-    [],
+    [
+      "vantage:shore_sand"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:lake_lava_surface_sandstone"
@@ -57,7 +59,9 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -68,14 +72,12 @@
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vantage:patch_dry_grass_beach",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_river",
-      "vantage:bonemeal/default"
+      "vantage:bonemeal/default",
+      "vantage:patch_dry_grass_beach"
     ],
-    [ 
-      
-      
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -161,5 +163,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.8
+  "temperature": 0.8,
+  "_comment": "Vantage original vanilla override for beach \u2014 distinct verticality, not Clifftree copy"
 }

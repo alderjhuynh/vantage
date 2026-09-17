@@ -12,7 +12,7 @@
       "min_inclusive": 0,
       "max_inclusive": 2
     },
-    "replaceable": "#vantage:glacier_valley_surface",
+    "replaceable": "#vantage:frozen_valley_surface",
     "ground_state": {
       "type": "minecraft:dual_noise_provider",
       "seed": 1234,

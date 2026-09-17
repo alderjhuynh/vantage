@@ -28,7 +28,9 @@
     "dry_foliage_color": "#6b522f"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -72,34 +74,34 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:pale_neighbor_vegetation",
-      "minecraft:patch_tall_grass_2",
       "minecraft:dark_forest_vegetation",
       "minecraft:forest_flowers",
+      "minecraft:patch_tall_grass_2",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_old_growth",
       "minecraft:red_mushroom_old_growth",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vantage:dark_forest_mushroom",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "vantage:grass_skylight",
+      "vantage:bonemeal/forest",
+      "vantage:dark_forest_mushroom",
       "vantage:forest_fern",
-      "vantage:patch_tall_grass_extra",
-      "vantage:bonemeal/forest"
+      "vantage:grass_skylight",
+      "vantage:pale_neighbor_vegetation",
+      "vantage:patch_tall_grass_extra"
     ],
-    [ 
-      
-      
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -203,5 +205,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.7
+  "temperature": 0.7,
+  "_comment": "Vantage original vanilla override for dark_forest \u2014 distinct verticality, not Clifftree copy"
 }

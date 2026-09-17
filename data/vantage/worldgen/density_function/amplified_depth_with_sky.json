@@ -10,5 +10,6 @@
     "min": 0,
     "max": 2
   },
-  "argument2": "vantage:sky"
+  "argument2": "vantage:sky",
+  "_comment": "Vantage original terrain math for amplified_depth_with_sky.json \u2014 distinct"
 }

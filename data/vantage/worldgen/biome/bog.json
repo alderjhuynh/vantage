@@ -30,10 +30,13 @@
     "grass_color": "#597C66"
   },
   "features": [
-    [],
+    [
+      "vantage:bog/mud_flats",
+      "vantage:bog/peat_patches"
+    ],
     [
       "minecraft:lake_lava_underground",
-      "vantage:bog_water"
+      "vantage:bog/still_water"
     ],
     [
       "minecraft:amethyst_geode"
@@ -57,7 +60,6 @@
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
-      "vantage:ore_coal_lush",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
@@ -75,7 +77,7 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -83,12 +85,13 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_grass_plain",
-      "vantage:trees_bog",
       "minecraft:patch_dead_bush",
       "minecraft:seagrass_swamp",
-      "vantage:bonemeal/swamp"
+      "vantage:bog/bonemeal",
+      "vantage:bog/cotton_grass",
+      "vantage:bog/stunted_oak"
     ],
-    [ 
+    [
       "minecraft:freeze_top_layer"
     ]
   ],

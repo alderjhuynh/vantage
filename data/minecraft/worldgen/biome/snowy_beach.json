@@ -17,10 +17,11 @@
   "effects": {
     "water_color": "#7EB1DD",
     "grass_color": "#9EB2A3"
-  }
-,
+  },
   "features": [
-    [],
+    [
+      "vantage:shore_sand"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -35,7 +36,6 @@
     [],
     [],
     [
-      "vantage:ice_blobs",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -61,9 +61,12 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "vantage:ice_blobs"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -72,12 +75,11 @@
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vantage:snow_patches_gravel",
-      "vantage:bonemeal/taiga"
+      "minecraft:seagrass_river",
+      "vantage:bonemeal/taiga",
+      "vantage:snow_patches_gravel"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer",
       "vantage:remove_snow_from_ice"
     ]
@@ -163,5 +165,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.05
+  "temperature": 0.05,
+  "_comment": "Vantage original vanilla override for snowy_beach \u2014 distinct verticality, not Clifftree copy"
 }

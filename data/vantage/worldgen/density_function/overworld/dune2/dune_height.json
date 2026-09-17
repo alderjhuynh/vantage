@@ -24,20 +24,21 @@
                 "argument": {
                   "type": "minecraft:noise",
                   "noise": "vantage:math/dune/height",
-                  "xz_scale": 0.15,
-                  "y_scale": 0.0
+                  "xz_scale": 0.12005,
+                  "y_scale": 0.05
                 }
               }
             },
             "argument2": {
               "type": "minecraft:noise",
               "noise": "vantage:math/dune/twist",
-              "xz_scale": 0.2,
-              "y_scale": 0.125
+              "xz_scale": 0.17005,
+              "y_scale": 0.10216
             }
           }
         }
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for dune_height.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

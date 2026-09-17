@@ -30,11 +30,14 @@
     "water_color": "#2B8C8A"
   },
   "features": [
-    "#vantage:alternate_terracotta",
     [
-      "vantage:shrubland_surface",
+      "vantage:highlands/disk_gravel",
+      "vantage:savanna/terracotta_bands"
+    ],
+    [
       "minecraft:lake_lava_underground",
-      "vantage:lake_lava_surface_sandstone"
+      "vantage:lake_lava_surface_sandstone",
+      "vantage:shrubland_surface"
     ],
     [
       "minecraft:amethyst_geode"
@@ -78,26 +81,21 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:patch_bush_shrubland",
-      "vantage:flower_shrubland",
-      "vantage:patch_grass_shrubland",
+      "minecraft:patch_tall_grass",
+      "minecraft:trees_savanna",
       "minecraft:patch_grass_badlands",
-      "vantage:patch_dead_bush",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_desert",
-      "minecraft:patch_pumpkin",
-      "vantage:patch_cactus_shrubland",
-      "vantage:bonemeal/shrubland"
+      "minecraft:brown_mushroom_normal"
     ],
-    [ 
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -214,5 +212,6 @@
     "water_creature": []
   },
   "temperature": 2.0,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage rewrite thornscrub \u2014 family savanna, distinct from Terralith/Clifftree source"
 }

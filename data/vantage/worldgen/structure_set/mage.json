@@ -7,22 +7,6 @@
         {
             "structure": "vantage:mage_complex",
             "weight": 1
-        },
-        {
-            "structure": "vantage:mage_tower_summer",
-            "weight": 1
-        },
-        {
-            "structure": "vantage:mage_tower_autumn",
-            "weight": 1
-        },
-        {
-            "structure": "vantage:mage_tower_winter",
-            "weight": 1
-        },
-        {
-            "structure": "vantage:mage_tower_spring",
-            "weight": 1
         }
     ],
     "placement": {

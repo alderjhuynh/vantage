@@ -33,16 +33,17 @@
   },
   "effects": {
     "water_color": "#282475"
-
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [],
     [
       "minecraft:amethyst_geode",
       "vantage:ore_diamond_tuff"
     ],
-    [ 
+    [
       "minecraft:fossil_upper",
       "minecraft:fossil_lower",
       "minecraft:monster_room",
@@ -77,15 +78,15 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
+      "vantage:ore_gravel_deep",
       "vantage:tuff_noise",
-      "vantage:tuff_noise_ceiling",
-      "vantage:ore_gravel_deep"
+      "vantage:tuff_noise_ceiling"
     ],
     [
-      "vantage:deepdark_ruins",
-      "vantage:ore_infested",
       "minecraft:sculk_vein",
-      "minecraft:sculk_patch_deep_dark"
+      "minecraft:sculk_patch_deep_dark",
+      "vantage:deepdark_ruins",
+      "vantage:ore_infested"
     ],
     [],
     [
@@ -94,6 +95,7 @@
       "minecraft:trees_plains",
       "minecraft:flower_plains",
       "minecraft:patch_grass_plain",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -115,5 +117,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.8
+  "temperature": 0.8,
+  "_comment": "Vantage original vanilla override for deep_dark \u2014 distinct verticality, not Clifftree copy"
 }

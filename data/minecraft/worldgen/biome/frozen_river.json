@@ -37,7 +37,9 @@
     "grass_color": "#78B895"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -51,7 +53,6 @@
     [],
     [],
     [
-      "vantage:ice_blobs",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -77,9 +78,12 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "vantage:ice_blobs"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -89,18 +93,17 @@
       "minecraft:trees_water",
       "minecraft:patch_bush",
       "minecraft:flower_default",
+      "minecraft:patch_grass_forest",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
-      "vantage:snow_patches",
-      "vantage:snow_river_ceiling",
+      "vantage:bonemeal/taiga",
       "vantage:glow_lichen_cave_river",
-      "vantage:bonemeal/taiga"
+      "vantage:snow_patches",
+      "vantage:snow_river_ceiling"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer",
       "vantage:remove_snow_from_ice"
     ]
@@ -200,5 +203,6 @@
       }
     ]
   },
-  "temperature": 0.0
+  "temperature": 0.0,
+  "_comment": "Vantage original vanilla override for frozen_river \u2014 distinct verticality, not Clifftree copy"
 }

@@ -25,12 +25,8 @@
   },
   "features": [
     [
-      "vantage:highlands/forest/disk_gravel",
-      "vantage:highlands/pillar",
-      "vantage:canyon/cliff/grass_upper",
-      "vantage:canyon/cliff/grass_lower",
-      "vantage:canyon/generic/slab_stone",
-      "vantage:highlands/forest/creek"
+      "vantage:highlands/disk_gravel",
+      "vantage:highlands/pillar"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -78,25 +74,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:highlands/forest/trees_maple",
-      "vantage:highlands/forest/tall/trees_tall",
-      "vantage:highlands/forest/mid/trees_mid",
-      "vantage:highlands/forest/small/trees_small",
-      "vantage:highlands/forest/tiny/trees_tiny",
-      "vantage:highlands/trees",
-      "vantage:forest/vanilla/fallen_tree_dark_oak",
       "minecraft:patch_bush",
-      "vantage:highlands/forest/flowers",
-      "vantage:highlands/forest/tall_flowers",
-      "vantage:highlands/lichen",
-      "vantage:highlands/forest/grass",
-      "vantage:highlands/vines_seed",
-      "vantage:highlands/vines_spread",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "vantage:highlands/alpine/pine"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -220,5 +201,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.36
+  "temperature": 0.36,
+  "_comment": "Vantage rewrite forested_highlands \u2014 family highlands, distinct from Terralith/Clifftree source"
 }

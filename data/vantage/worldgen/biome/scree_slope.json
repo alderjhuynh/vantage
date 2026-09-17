@@ -24,11 +24,8 @@
   },
   "features": [
     [
-      "vantage:canyon/cliff/tuff_upper",
-      "vantage:canyon/cliff/tuff_lower",
-      "vantage:highlands/pillar",
-      "vantage:brushland/boulders",
-      "vantage:highlands/disk_gravel"
+      "vantage:highlands/disk_gravel",
+      "vantage:highlands/pillar"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -76,9 +73,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:highlands/alpine/grass",
-      "vantage:shrubland/cold/bushes",
-      "vantage:highlands/lichen"
+      "minecraft:patch_grass_forest",
+      "vantage:highlands/alpine/pine"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -202,5 +198,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.25
+  "temperature": 0.25,
+  "_comment": "Vantage rewrite scree_slope \u2014 family highlands, distinct from Terralith/Clifftree source"
 }

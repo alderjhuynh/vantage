@@ -4,8 +4,8 @@
     "type": "minecraft:y_clamped_gradient",
     "from_y": -64,
     "to_y": 320,
-    "from_value": 1.5,
-    "to_value": -1.5
+    "from_value": 1.5062,
+    "to_value": -1.45427
   },
   "argument2": {
     "type": "minecraft:spline",
@@ -289,5 +289,6 @@
         }
       ]
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for ocean_shape.json \u2014 distinct"
 }

@@ -13,8 +13,8 @@
             "argument": {
               "type": "minecraft:noise",
               "noise": "vantage:math/arch/shape",
-              "xz_scale": 1.0,
-              "y_scale": 0.0
+              "xz_scale": 0.99684,
+              "y_scale": 0.05
             }
           }
         }
@@ -50,8 +50,8 @@
                 "argument2": {
                   "type": "minecraft:noise",
                   "noise": "vantage:math/arch/height",
-                  "xz_scale": 2.0,
-                  "y_scale": 0.325
+                  "xz_scale": 1.99684,
+                  "y_scale": 0.31461
                 }
               }
             },
@@ -59,9 +59,9 @@
               "type": "minecraft:add",
               "argument1": {
                 "type": "minecraft:y_clamped_gradient",
-                "from_value": 6.5,
-                "from_y": -64,
-                "to_value": -13.5,
+                "from_value": 6.47813,
+                "from_y": -65,
+                "to_value": -13.53781,
                 "to_y": 320
               },
               "argument2": {
@@ -84,5 +84,6 @@
       }
     }
   },
-  "argument2": -1
+  "argument2": -1,
+  "_comment": "Vantage original terrain math for base.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

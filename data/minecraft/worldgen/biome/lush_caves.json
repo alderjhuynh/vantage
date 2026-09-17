@@ -35,17 +35,17 @@
     "water_color": "#46CDCA",
     "grass_color": "#B4D652",
     "foliage_color": "#82AC1E"
-
   },
   "features": [
-    [],
     [
+      "vantage:highlands/disk_gravel"
     ],
+    [],
     [
       "minecraft:amethyst_geode",
       "vantage:ore_diamond_tuff"
     ],
-    [ 
+    [
       "minecraft:fossil_upper",
       "minecraft:fossil_lower",
       "minecraft:monster_room",
@@ -64,7 +64,6 @@
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
-      "vantage:ore_coal_lush",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
@@ -83,9 +82,10 @@
       "minecraft:underwater_magma",
       "minecraft:ore_clay",
       "vantage:ore_andesite_extra",
+      "vantage:ore_coal_lush",
+      "vantage:ore_gravel_deep",
       "vantage:tuff_noise",
-      "vantage:tuff_noise_ceiling",
-      "vantage:ore_gravel_deep"
+      "vantage:tuff_noise_ceiling"
     ],
     [
       "vantage:ore_infested"
@@ -102,6 +102,7 @@
       "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
       "minecraft:classic_vines_cave_feature",
+      "minecraft:patch_grass_forest",
       "vantage:seagrass_cave"
     ],
     [
@@ -191,5 +192,6 @@
     ],
     "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": 0.5,
+  "_comment": "Vantage original vanilla override for lush_caves \u2014 distinct verticality, not Clifftree copy"
 }

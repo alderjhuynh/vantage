@@ -1,9 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vantage:alpha_islands",
-    "vantage:alpha_islands_winter",
-    "vantage:mirage_isles",
+    "vantage:misty_isles",
     "vantage:warped_mesa"
   ]
 }

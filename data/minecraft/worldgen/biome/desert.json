@@ -31,11 +31,12 @@
   },
   "features": [
     [
+      "vantage:savanna/terracotta_bands"
     ],
     [
       "minecraft:lake_lava_underground",
-      "vantage:lake_lava_surface_sandstone",
-      "vantage:disk_sandstone_filler"
+      "vantage:disk_sandstone_filler",
+      "vantage:lake_lava_surface_sandstone"
     ],
     [
       "minecraft:amethyst_geode"
@@ -78,7 +79,9 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -86,6 +89,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:flower_default",
+      "minecraft:patch_dead_bush",
       "minecraft:patch_grass_badlands",
       "minecraft:patch_dry_grass_desert",
       "minecraft:patch_dead_bush_2",
@@ -95,8 +99,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_cactus_desert"
     ],
-    [ 
-    
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -201,5 +204,6 @@
     "water_creature": []
   },
   "temperature": 2.0,
-  "creature_spawn_probability": 0.07
+  "creature_spawn_probability": 0.07,
+  "_comment": "Vantage original vanilla override for desert \u2014 distinct verticality, not Clifftree copy"
 }

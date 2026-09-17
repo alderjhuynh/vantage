@@ -4,7 +4,7 @@
     "minecraft:meadow",
     "minecraft:sunflower_plains",
     "#vantage:reference/plains",
-    "vantage:blooming_plateau",
+    "vantage:flower_plateau",
     "vantage:temperate_highlands"
   ],
   "replace": false

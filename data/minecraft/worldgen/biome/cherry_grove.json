@@ -23,7 +23,9 @@
     "foliage_color": "#B6DB61"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/pillar"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -68,7 +70,9 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -77,14 +81,15 @@
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_plain",
-      "vantage:flower_cherry",
-      "vantage:trees_cherry",
-      "vantage:flower_pink_tulip",
+      "minecraft:patch_grass_taiga",
+      "vantage:bonemeal/cherry_grove",
       "vantage:cherry_snow",
+      "vantage:flower_cherry",
+      "vantage:flower_pink_tulip",
       "vantage:grass_skylight",
-      "vantage:bonemeal/cherry_grove"
+      "vantage:trees_cherry"
     ],
-    [ 
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -195,5 +200,6 @@
     "water_creature": []
   },
   "temperature": 0.5,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for cherry_grove \u2014 distinct verticality, not Clifftree copy"
 }

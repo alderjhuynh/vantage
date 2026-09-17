@@ -14,7 +14,9 @@
     "water_color": "#2D86BC"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -58,7 +60,9 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -66,21 +70,20 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
-      "minecraft:trees_plains",
       "minecraft:patch_bush",
+      "minecraft:trees_plains",
       "minecraft:flower_plains",
-      "vantage:flower_tulip",
       "minecraft:patch_grass_plain",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
+      "vantage:bonemeal/plain",
       "vantage:flower_dandelion",
-      "vantage:bonemeal/plain"
+      "vantage:flower_tulip"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -203,5 +206,6 @@
     "water_creature": []
   },
   "temperature": 0.85,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for plains \u2014 distinct verticality, not Clifftree copy"
 }

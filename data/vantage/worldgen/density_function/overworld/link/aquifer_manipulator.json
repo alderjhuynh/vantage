@@ -5,23 +5,23 @@
     "points": [
       {
         "derivative": 0,
-        "location": 0.0,
+        "location": -0.00865,
         "value": {
           "coordinate": "vantage:overworld/link/aquifer_force",
           "points": [
             {
               "derivative": 0,
-              "location": -0.25,
+              "location": -0.24559,
               "value": 0.64
             },
             {
               "derivative": 0,
-              "location": 0.0,
+              "location": -0.00865,
               "value": 0.0
             },
             {
               "derivative": 0,
-              "location": 0.05,
+              "location": 0.05223,
               "value": -1.0
             }
           ]
@@ -29,14 +29,15 @@
       },
       {
         "derivative": 0,
-        "location": 0.02,
+        "location": 0.02343,
         "value": 0.0
       },
       {
         "derivative": 0,
-        "location": 0.05,
+        "location": 0.05223,
         "value": -1.0
       }
     ]
-  }
+  },
+  "_comment": "Vantage original terrain math for aquifer_manipulator.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

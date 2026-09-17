@@ -279,7 +279,7 @@
     "g": 108,
     "b": 108
   },
-  "vantage:mushroom_caves": {
+  "vantage:fungal_caves": {
     "r": 163,
     "g": 69,
     "b": 137
@@ -309,7 +309,7 @@
     "g": 88,
     "b": 105
   },
-  "vantage:inferno": {
+  "vantage:literally_just_fire": {
     "r": 155,
     "g": 36,
     "b": 30
@@ -324,7 +324,7 @@
     "g": 240,
     "b": 0
   },
-  "vantage:gravelly_beach": {
+  "vantage:gravel_beach": {
     "r": 157,
     "g": 155,
     "b": 145
@@ -334,12 +334,12 @@
     "g": 227,
     "b": 122
   },
-  "vantage:diorite_shore": {
+  "vantage:diorite_coast": {
     "r": 177,
     "g": 177,
     "b": 177
   },
-  "vantage:glacier_valley": {
+  "vantage:frozen_valley": {
     "r": 255,
     "g": 255,
     "b": 255
@@ -349,7 +349,7 @@
     "g": 162,
     "b": 105
   },
-  "vantage:granite_shore": {
+  "vantage:granite_bluff": {
     "r": 162,
     "g": 135,
     "b": 111
@@ -359,7 +359,7 @@
     "g": 186,
     "b": 193
   },
-  "vantage:glacier_cliff": {
+  "vantage:frozen_cliff": {
     "r": 164,
     "g": 199,
     "b": 210
@@ -384,17 +384,17 @@
     "g": 108,
     "b": 82
   },
-  "vantage:coniferous_badlands": {
+  "vantage:coniferous_thicket": {
     "r": 198,
     "g": 186,
     "b": 43
   },
-  "vantage:kelp_forest": {
+  "vantage:kelp_thicket": {
     "r": 14,
     "g": 131,
     "b": 75
   },
-  "vantage:pale_grotto": {
+  "vantage:pale_cave": {
     "r": 124,
     "g": 124,
     "b": 124

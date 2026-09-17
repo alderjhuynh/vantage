@@ -25,10 +25,8 @@
   },
   "features": [
     [
-      "vantage:highlands/pillar",
-      "vantage:canyon/cliff/grass_upper",
-      "vantage:canyon/cliff/grass_lower",
-      "vantage:canyon/cliff/calcite_upper"
+      "vantage:highlands/disk_gravel",
+      "vantage:highlands/pillar"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -76,15 +74,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:highlands/flowers",
-      "vantage:highlands/tall_flowers",
-      "vantage:flower/blue/flowers",
-      "vantage:flower/white/flowers",
-      "vantage:highlands/alpine/bushes",
-      "vantage:highlands/lichen",
-      "vantage:highlands/grass",
-      "vantage:highlands/vines_seed",
-      "vantage:highlands/vines_spread"
+      "minecraft:patch_grass_forest",
+      "vantage:highlands/alpine/pine"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -208,5 +199,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.55
+  "temperature": 0.55,
+  "_comment": "Vantage rewrite hanging_meadow \u2014 family highlands, distinct from Terralith/Clifftree source"
 }

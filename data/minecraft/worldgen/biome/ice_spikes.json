@@ -28,7 +28,9 @@
     "grass_color": "#9EB2A3"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -42,7 +44,6 @@
     [],
     [],
     [
-      "vantage:ice_blobs",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -68,11 +69,12 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "vantage:ice_blobs"
     ],
     [
-      "vantage:ice_spike",
-      "vantage:ice_patch"
+      "vantage:ice_patch",
+      "vantage:ice_spike"
     ],
     [
       "minecraft:spring_water",
@@ -81,14 +83,13 @@
     [
       "minecraft:glow_lichen",
       "minecraft:flower_default",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "vantage:snow_patches"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer",
       "vantage:remove_snow_from_ice"
     ]
@@ -193,5 +194,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.0
+  "temperature": 0.0,
+  "_comment": "Vantage original vanilla override for ice_spikes \u2014 distinct verticality, not Clifftree copy"
 }

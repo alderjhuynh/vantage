@@ -17,6 +17,7 @@
   },
   "features": [
     [
+      "vantage:shore_sand",
       "vantage:surface_andesite"
     ],
     [
@@ -58,10 +59,11 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "vantage:shore_sand"
+      "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -72,12 +74,11 @@
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vantage:patch_dry_grass_beach",
-      "vantage:bonemeal/default"
+      "minecraft:seagrass_river",
+      "vantage:bonemeal/default",
+      "vantage:patch_dry_grass_beach"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -163,5 +164,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": 0.5,
+  "_comment": "Vantage original vanilla override for stony_shore \u2014 distinct verticality, not Clifftree copy"
 }

@@ -9,23 +9,23 @@
         "points": [
           {
             "derivative": 0,
-            "location": -0.275,
+            "location": -0.28215,
             "value": 4
           },
           {
             "derivative": 0,
-            "location": -0.2375,
+            "location": -0.22811,
             "value": {
               "coordinate": "overworld/erosion",
               "points": [
                 {
                   "derivative": 0,
-                  "location": -0.55,
+                  "location": -0.55528,
                   "value": 0
                 },
                 {
                   "derivative": 0,
-                  "location": -0.5,
+                  "location": -0.49884,
                   "value": 4
                 }
               ]
@@ -33,18 +33,18 @@
           },
           {
             "derivative": 0,
-            "location": -0.18,
+            "location": -0.17696,
             "value": {
               "coordinate": "overworld/erosion",
               "points": [
                 {
                   "derivative": 0,
-                  "location": -0.55,
+                  "location": -0.55528,
                   "value": 0
                 },
                 {
                   "derivative": 0,
-                  "location": -0.5,
+                  "location": -0.49884,
                   "value": 4
                 }
               ]
@@ -52,16 +52,17 @@
           },
           {
             "derivative": 0,
-            "location": -0.125,
+            "location": -0.13749,
             "value": 1.0
           },
           {
             "derivative": 0,
-            "location": -0.09,
+            "location": -0.08917,
             "value": 4.0
           }
         ]
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for spline.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

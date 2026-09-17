@@ -26,10 +26,11 @@
     "water_color": "#1499AC",
     "grass_color": "#5DB433",
     "foliage_color": "#4b9e17"
-  }
-,
+  },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:mud_patch_jungle"
@@ -74,29 +75,31 @@
       "minecraft:underwater_magma",
       "vantage:disk_sand_tropic"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_large_fern",
       "minecraft:bamboo",
       "minecraft:bamboo_vegetation",
       "minecraft:flower_warm",
       "minecraft:patch_grass_jungle",
+      "minecraft:patch_large_fern",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:vines",
       "minecraft:patch_melon",
-      "vantage:jungle_mushroom",
-      "vantage:bonemeal/forest"
+      "vantage:bonemeal/forest",
+      "vantage:jungle_mushroom"
     ],
-    [ 
-    
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -219,5 +222,6 @@
     "water_creature": []
   },
   "temperature": 0.95,
-  "creature_spawn_probability": 0.3
+  "creature_spawn_probability": 0.3,
+  "_comment": "Vantage original vanilla override for bamboo_jungle \u2014 distinct verticality, not Clifftree copy"
 }

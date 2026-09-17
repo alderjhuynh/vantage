@@ -7,16 +7,16 @@
       "type": "minecraft:add",
       "argument1": {
         "type": "minecraft:y_clamped_gradient",
-        "from_value": 1,
+        "from_value": 0.96901,
         "from_y": 40,
-        "to_value": 0,
+        "to_value": 0.0201,
         "to_y": 57
       },
       "argument2": {
         "type": "minecraft:y_clamped_gradient",
-        "from_value": 0,
+        "from_value": -0.03099,
         "from_y": 57,
-        "to_value": -5,
+        "to_value": -4.9799,
         "to_y": 320
       }
     },
@@ -35,5 +35,6 @@
         }
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for noise.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

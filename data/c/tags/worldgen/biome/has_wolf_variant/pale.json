@@ -2,8 +2,6 @@
   "replace": false,
   "values": [
     "minecraft:taiga",
-    "vantage:alpha_islands",
-    "vantage:alpha_islands_winter",
     "vantage:gravel_desert"
   ]
 }

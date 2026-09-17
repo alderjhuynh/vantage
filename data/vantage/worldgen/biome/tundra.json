@@ -17,7 +17,8 @@
   },
   "features": [
     [
-      "vantage:tundra_surface"
+      "vantage:highlands/disk_gravel",
+      "vantage:highlands/pillar"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -63,20 +64,19 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:flower_tundra",
-      "vantage:patch_grass_tundra_2",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "vantage:bonemeal/tundra"
+      "vantage:highlands/alpine/pine"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -195,5 +195,6 @@
     "water_creature": []
   },
   "temperature": 0.25,
-  "temperature_modifier": "frozen"
+  "temperature_modifier": "frozen",
+  "_comment": "Vantage rewrite tundra \u2014 family highlands, distinct from Terralith/Clifftree source"
 }

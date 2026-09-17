@@ -1,8 +1,8 @@
 {
     "values": [
         "minecraft:desert",
-        "vantage:ancient_sands",
+        "vantage:shifting_sands",
         "vantage:desert_oasis",
-        "vantage:red_oasis"
+        "vantage:oasis"
     ]
 }

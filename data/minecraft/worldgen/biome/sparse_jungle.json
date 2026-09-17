@@ -28,7 +28,9 @@
     "foliage_color": "#3aa419"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -72,17 +74,20 @@
       "minecraft:underwater_magma",
       "vantage:disk_sand_tropic"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:bamboo_light",
       "minecraft:trees_sparse_jungle",
+      "minecraft:bamboo_light",
       "minecraft:flower_warm",
       "minecraft:patch_grass_jungle",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -92,8 +97,6 @@
       "vantage:bonemeal/forest"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -204,5 +207,6 @@
     "water_creature": []
   },
   "temperature": 0.95,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for sparse_jungle \u2014 distinct verticality, not Clifftree copy"
 }

@@ -32,7 +32,9 @@
     "foliage_color": "#909533"
   },
   "features": [
-    "#vantage:badlands_terracotta",
+    [
+      "#vantage:badlands_terracotta"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:disk_red_sand_filler"
@@ -86,18 +88,18 @@
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:patch_bush_badlands",
       "minecraft:trees_badlands",
       "minecraft:patch_dry_grass_badlands",
-      "vantage:patch_dead_bush_wooded_badlands",
+      "minecraft:patch_dead_bush_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_badlands",
       "minecraft:patch_pumpkin",
-      "vantage:patch_cactus_wooded_badlands"
+      "vantage:patch_bush_badlands",
+      "vantage:patch_cactus_wooded_badlands",
+      "vantage:patch_dead_bush_wooded_badlands"
     ],
     [
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -114,7 +116,6 @@
     ],
     "axolotls": [],
     "creature": [
-
       {
         "type": "minecraft:armadillo",
         "maxCount": 4,
@@ -221,5 +222,6 @@
     "water_creature": []
   },
   "temperature": 2.0,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for wooded_badlands \u2014 distinct verticality, not Clifftree copy"
 }

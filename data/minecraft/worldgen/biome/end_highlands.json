@@ -28,7 +28,9 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [],
     [],
     [],
@@ -40,9 +42,12 @@
     [],
     [],
     [
+      "minecraft:patch_grass_forest",
       "vantage:end/chorus_dense",
       "vantage:end/end_stone_boulder"
     ],
     []
-  ]
+  ],
+  "_comment": "Vantage original vanilla override for end_highlands \u2014 distinct verticality, not Clifftree copy",
+  "attributes": {}
 }

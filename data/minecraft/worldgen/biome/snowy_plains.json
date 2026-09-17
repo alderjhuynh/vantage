@@ -28,7 +28,9 @@
     "grass_color": "#CBDED8"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -42,7 +44,6 @@
     [],
     [],
     [
-      "vantage:ice_blobs",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -69,9 +70,12 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "vantage:disk_snowy_grass"
+      "vantage:disk_snowy_grass",
+      "vantage:ice_blobs"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -80,16 +84,15 @@
       "minecraft:glow_lichen",
       "minecraft:trees_snowy",
       "minecraft:flower_default",
-      "vantage:patch_grass_snowy_plains",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
-      "vantage:snow_patches",
-      "vantage:bonemeal/taiga"
+      "vantage:bonemeal/taiga",
+      "vantage:patch_grass_snowy_plains",
+      "vantage:snow_patches"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer",
       "vantage:remove_snow_from_ice"
     ]
@@ -200,5 +203,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.0
+  "temperature": 0.0,
+  "_comment": "Vantage original vanilla override for snowy_plains \u2014 distinct verticality, not Clifftree copy"
 }

@@ -16,10 +16,11 @@
     "water_color": "#2C7F9F",
     "grass_color": "#CEB74E",
     "foliage_color": "#9EAC43"
-  }
-,
+  },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -61,7 +62,9 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -72,6 +75,7 @@
       "minecraft:trees_savanna",
       "minecraft:flower_warm",
       "minecraft:patch_grass_savanna",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -79,8 +83,6 @@
       "vantage:bonemeal/default"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -209,5 +211,6 @@
     "water_creature": []
   },
   "temperature": 2.0,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for savanna \u2014 distinct verticality, not Clifftree copy"
 }

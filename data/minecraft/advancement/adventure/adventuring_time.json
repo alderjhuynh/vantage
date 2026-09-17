@@ -15,7 +15,7 @@
   },
   "parent": "minecraft:adventure/sleep_in_bed",
   "criteria": {
-    "vantage:pale_grotto": {
+    "vantage:pale_cave": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -24,7 +24,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:pale_grotto"
+                "biomes": "vantage:pale_cave"
               }
             }
           }
@@ -911,7 +911,7 @@
         ]
       }
     },
-    "vantage:coniferous_badlands": {
+    "vantage:coniferous_thicket": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -920,7 +920,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:coniferous_badlands"
+                "biomes": "vantage:coniferous_thicket"
               }
             }
           }
@@ -1103,7 +1103,7 @@
         ]
       }
     },
-    "vantage:mushroom_caves": {
+    "vantage:fungal_caves": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1112,7 +1112,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:mushroom_caves"
+                "biomes": "vantage:fungal_caves"
               }
             }
           }
@@ -1151,7 +1151,7 @@
         ]
       }
     },
-    "vantage:inferno": {
+    "vantage:literally_just_fire": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1160,14 +1160,14 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:inferno"
+                "biomes": "vantage:literally_just_fire"
               }
             }
           }
         ]
       }
     },
-    "vantage:gravelly_beach": {
+    "vantage:gravel_beach": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1176,14 +1176,14 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:gravelly_beach"
+                "biomes": "vantage:gravel_beach"
               }
             }
           }
         ]
       }
     },
-    "vantage:granite_shore": {
+    "vantage:granite_bluff": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1192,14 +1192,14 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:granite_shore"
+                "biomes": "vantage:granite_bluff"
               }
             }
           }
         ]
       }
     },
-    "vantage:glacier_valley": {
+    "vantage:frozen_valley": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1208,14 +1208,14 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:glacier_valley"
+                "biomes": "vantage:frozen_valley"
               }
             }
           }
         ]
       }
     },
-    "vantage:glacier_cliff": {
+    "vantage:frozen_cliff": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1224,7 +1224,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:glacier_cliff"
+                "biomes": "vantage:frozen_cliff"
               }
             }
           }
@@ -1247,7 +1247,7 @@
         ]
       }
     },
-    "vantage:diorite_shore": {
+    "vantage:diorite_coast": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1256,7 +1256,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:diorite_shore"
+                "biomes": "vantage:diorite_coast"
               }
             }
           }
@@ -1343,7 +1343,7 @@
         ]
       }
     },
-    "vantage:kelp_forest": {
+    "vantage:kelp_thicket": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -1352,7 +1352,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "vantage:kelp_forest"
+                "biomes": "vantage:kelp_thicket"
               }
             }
           }

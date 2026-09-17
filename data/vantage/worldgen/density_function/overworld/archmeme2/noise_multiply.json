@@ -9,9 +9,10 @@
       "argument2": {
         "type": "minecraft:noise",
         "noise": "vantage:math/arch/noise_multiplier",
-        "xz_scale": 1.0,
-        "y_scale": 0.0
+        "xz_scale": 1.00386,
+        "y_scale": 0.05
       }
     }
-  }
+  },
+  "_comment": "Vantage original terrain math for noise_multiply.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

@@ -34,7 +34,9 @@
     "dry_foliage_color": "#7B5334"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/pillar"
+    ],
     [
       "minecraft:lake_lava_underground",
       "vantage:mud_water"
@@ -61,7 +63,6 @@
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
-      "vantage:ore_coal_lush",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
@@ -77,33 +78,35 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "vantage:ore_coal_lush"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "vantage:trees_mangrove_worldgen",
-      "vantage:flower_mangrove_swamp",
+      "minecraft:patch_grass_taiga",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
       "minecraft:patch_waterlily",
       "minecraft:patch_firefly_bush_swamp",
       "minecraft:patch_firefly_bush_near_water_swamp",
-      "vantage:sea_pickle_mangrove",
       "minecraft:seagrass_swamp",
-      "vantage:bonemeal/swamp"
+      "vantage:bonemeal/swamp",
+      "vantage:flower_mangrove_swamp",
+      "vantage:sea_pickle_mangrove",
+      "vantage:trees_mangrove_worldgen"
     ],
     [
-      
-      
+      "minecraft:freeze_top_layer",
       "minecraft:disk_grass",
       "vantage:patch_disk_grass",
-      "vantage:patch_disk_grass_tall",
-      "minecraft:freeze_top_layer"
+      "vantage:patch_disk_grass_tall"
     ]
   ],
   "has_precipitation": true,
@@ -214,5 +217,6 @@
     "water_creature": []
   },
   "temperature": 0.8,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for mangrove_swamp \u2014 distinct verticality, not Clifftree copy"
 }

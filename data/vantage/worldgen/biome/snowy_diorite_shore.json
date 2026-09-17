@@ -19,7 +19,10 @@
     "grass_color": "#9EB2A3"
   },
   "features": [
-    [],
+    [
+      "vantage:bog/mud_flats",
+      "vantage:bog/peat_patches"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -34,7 +37,6 @@
     [],
     [],
     [
-      "vantage:ice_blobs",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -61,10 +63,13 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "vantage:shore_gravel",
-      "vantage:ore_stone_buried"
+      "vantage:ice_blobs",
+      "vantage:ore_stone_buried",
+      "vantage:shore_gravel"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -73,11 +78,8 @@
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "vantage:patch_dry_grass_beach",
-      "vantage:snow_patches_gravel",
-      "vantage:bonemeal/taiga"
+      "minecraft:seagrass_swamp",
+      "vantage:bog/stunted_oak"
     ],
     [
       "minecraft:freeze_top_layer",
@@ -165,5 +167,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.05
+  "temperature": 0.05,
+  "_comment": "Vantage rewrite snowy_diorite_shore \u2014 family wet, distinct from Terralith/Clifftree source"
 }

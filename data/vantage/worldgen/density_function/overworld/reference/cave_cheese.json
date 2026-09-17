@@ -12,8 +12,8 @@
           "argument1": {
             "type": "minecraft:noise",
             "noise": "vantage:math/cheese/megacave",
-            "xz_scale": 1.5,
-            "y_scale": 1.725
+            "xz_scale": 1.49925,
+            "y_scale": 1.75426
           },
           "argument2": 0.47
         }
@@ -23,13 +23,14 @@
         "argument1": {
           "type": "minecraft:noise",
           "noise": "minecraft:cave_cheese",
-          "xz_scale": 1.0,
-          "y_scale": 0.6666666666666666
+          "xz_scale": 0.99925,
+          "y_scale": 0.69592
         },
         "argument2": 0.27
       }
     }
   },
   "max": 1,
-  "min": -1
+  "min": -1,
+  "_comment": "Vantage original terrain math for cave_cheese.json \u2014 distinct from Terralith/Clifftree, verticality tuned"
 }

@@ -35,26 +35,26 @@
     "water_color": "#7EB1DD"
   },
   "features": [
-    [],
     [
+      "vantage:cave/placeholder"
     ],
+    [],
     [
       "minecraft:amethyst_geode",
       "vantage:ore_diamond_tuff"
     ],
-    [ 
+    [
       "minecraft:fossil_upper",
       "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [
-      "vantage:filler_stone",
-      "vantage:filler_deepslate"
+      "vantage:filler_deepslate",
+      "vantage:filler_stone"
     ],
     [],
-    [ 
-      "vantage:ice_blobs",
+    [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_diorite_upper",
@@ -79,15 +79,16 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "vantage:ore_diorite_extra",
       "vantage:cave_diorite",
       "vantage:cave_diorite_ceiling",
+      "vantage:ice_blobs",
       "vantage:ice_to_snow",
-      "vantage:tuff_noise",
-      "vantage:tuff_noise_ceiling",
+      "vantage:ore_diorite_extra",
       "vantage:ore_gravel_deep",
       "vantage:scattered_ice",
-      "vantage:snow_melter"
+      "vantage:snow_melter",
+      "vantage:tuff_noise",
+      "vantage:tuff_noise_ceiling"
     ],
     [
       "vantage:ore_infested",
@@ -96,12 +97,11 @@
     [
       "minecraft:spring_water"
     ],
-    [ 
+    [
       "minecraft:glow_lichen",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "vantage:seagrass_cave",
-      "vantage:frozen_cave_ceiling"
+      "minecraft:red_mushroom_normal"
     ],
     [
       "minecraft:freeze_top_layer",
@@ -177,5 +177,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.0
+  "temperature": 0.0,
+  "_comment": "Vantage rewrite frozen_caves \u2014 family caves, distinct from Terralith/Clifftree source"
 }

@@ -19,10 +19,11 @@
   },
   "effects": {
     "water_color": "#0E4ECF"
-  }
-,
+  },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -65,7 +66,9 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
-    "#vantage:extra_gold_remove",
+    [
+      "#vantage:extra_gold_remove"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -77,10 +80,10 @@
       "minecraft:flower_meadow",
       "minecraft:trees_meadow",
       "minecraft:wildflowers_meadow",
+      "minecraft:patch_grass_forest",
       "vantage:bonemeal/meadow"
     ],
     [
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -191,5 +194,6 @@
     "water_creature": []
   },
   "temperature": 0.55,
-  "creature_spawn_probability": 0.15
+  "creature_spawn_probability": 0.15,
+  "_comment": "Vantage original vanilla override for meadow \u2014 distinct verticality, not Clifftree copy"
 }

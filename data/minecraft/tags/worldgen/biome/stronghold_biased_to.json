@@ -4,7 +4,7 @@
     "#minecraft:is_taiga",
     "#vantage:is_desert",
     "vantage:tundra",
-    "vantage:glacier_valley",
+    "vantage:frozen_valley",
     "#is_forest",
     "#vantage:reference/all_with_structures"
   ],

@@ -32,11 +32,13 @@
     "foliage_color": "#909533"
   },
   "features": [
-    "#vantage:badlands_terracotta",
+    [
+      "#vantage:badlands_terracotta"
+    ],
     [
       "minecraft:lake_lava_underground",
-      "vantage:lake_lava_surface_red_sandstone",
-      "vantage:disk_red_sand_filler"
+      "vantage:disk_red_sand_filler",
+      "vantage:lake_lava_surface_red_sandstone"
     ],
     [
       "minecraft:amethyst_geode"
@@ -93,8 +95,7 @@
       "minecraft:patch_pumpkin",
       "vantage:patch_cactus_badlands"
     ],
-    [ 
-    
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -111,12 +112,12 @@
     ],
     "axolotls": [],
     "creature": [
-    {
-      "type": "minecraft:armadillo",
-      "maxCount": 2,
-      "minCount": 2,
-      "weight": 10
-    }
+      {
+        "type": "minecraft:armadillo",
+        "maxCount": 2,
+        "minCount": 2,
+        "weight": 10
+      }
     ],
     "misc": [],
     "monster": [
@@ -193,5 +194,6 @@
     "water_creature": []
   },
   "temperature": 2.0,
-  "creature_spawn_probability": 0.07
+  "creature_spawn_probability": 0.07,
+  "_comment": "Vantage original vanilla override for badlands \u2014 distinct verticality, not Clifftree copy"
 }

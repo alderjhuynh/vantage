@@ -27,14 +27,16 @@
     "water_color": "#34bf89"
   },
   "features": [
-    [],
+    [
+      "vantage:highlands/disk_gravel"
+    ],
     [
       "minecraft:lake_lava_underground",
-      "vantage:lake_lava_underground_deepslate",
       "minecraft:rooted_sulfur_spring",
-      "vantage:sulfur_stone_noise",
+      "minecraft:sulfur_pool",
+      "vantage:lake_lava_underground_deepslate",
       "vantage:sulfur_deepslate_noise",
-      "minecraft:sulfur_pool"
+      "vantage:sulfur_stone_noise"
     ],
     [
       "minecraft:amethyst_geode",
@@ -76,13 +78,13 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
+      "vantage:ore_gravel_deep",
       "vantage:tuff_noise",
-      "vantage:tuff_noise_ceiling",
-      "vantage:ore_gravel_deep"
+      "vantage:tuff_noise_ceiling"
     ],
     [
-      "minecraft:sulfur_spike_cluster",
-      "minecraft:sulfur_spike"
+      "minecraft:sulfur_spike",
+      "minecraft:sulfur_spike_cluster"
     ],
     [
       "minecraft:spring_water",
@@ -90,6 +92,7 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_grass_forest",
       "vantage:sulfur_cave_cobwebs"
     ],
     [
@@ -99,8 +102,7 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],
@@ -152,5 +154,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.8
+  "temperature": 0.8,
+  "_comment": "Vantage original vanilla override for sulfur_caves \u2014 distinct verticality, not Clifftree copy"
 }
